@@ -1,0 +1,809 @@
+{
+ "customer": {
+  "n": 1000,
+  "from": "2026-09-27",
+  "to": "2026-10-04",
+  "avg": 2.96,
+  "neg": 493,
+  "ratings": {
+   "1": 476,
+   "2": 17,
+   "3": 18,
+   "4": 46,
+   "5": 443
+  },
+  "severe": {
+   "neg": 156,
+   "pct": 31.6,
+   "avg": 1.05
+  },
+  "recoveryNegPct": 57.6,
+  "fraudStrictNeg": 74,
+  "pricePraise": {
+   "reasoned": 188,
+   "price": 81,
+   "pct": 43.1,
+   "negStillPraise": 42
+  },
+  "fiveStarShortPct": 60.9,
+  "replyRatePct": 99.9,
+  "replyMedianMin": 14,
+  "replyEmailPct": 49.8,
+  "thumbsTotal": 32,
+  "thumbsNeg": 30,
+  "cascade": [
+   {
+    "step": "All 1–2★ reviews",
+    "n": 493
+   },
+   {
+    "step": "…describe an operational failure",
+    "n": 302
+   },
+   {
+    "step": "…and could not get help or a refund",
+    "n": 199
+   },
+   {
+    "step": "…and use fraud/scam words or name a competitor",
+    "n": 43
+   }
+  ],
+  "themes": [
+   {
+    "theme": "Support unresponsive",
+    "group": "recovery",
+    "neg": 241,
+    "pct": 48.9,
+    "all": 247,
+    "avg": 1.11
+   },
+   {
+    "theme": "Rider / delivery partner",
+    "group": "other",
+    "neg": 115,
+    "pct": 23.3,
+    "all": 131,
+    "avg": 1.43
+   },
+   {
+    "theme": "Refund problem",
+    "group": "recovery",
+    "neg": 113,
+    "pct": 22.9,
+    "all": 119,
+    "avg": 1.15
+   },
+   {
+    "theme": "Delivery delay / ETA",
+    "group": "other",
+    "neg": 107,
+    "pct": 21.7,
+    "all": 133,
+    "avg": 1.73
+   },
+   {
+    "theme": "Not delivered / false 'Delivered'",
+    "group": "severe",
+    "neg": 104,
+    "pct": 21.1,
+    "all": 107,
+    "avg": 1.07
+   },
+   {
+    "theme": "Cancelled after payment",
+    "group": "severe",
+    "neg": 61,
+    "pct": 12.4,
+    "all": 61,
+    "avg": 1.0
+   },
+   {
+    "theme": "Food quality / hygiene",
+    "group": "other",
+    "neg": 40,
+    "pct": 8.1,
+    "all": 62,
+    "avg": 2.4
+   },
+   {
+    "theme": "Missing / wrong items",
+    "group": "other",
+    "neg": 39,
+    "pct": 7.9,
+    "all": 42,
+    "avg": 1.24
+   },
+   {
+    "theme": "Payment / COD",
+    "group": "other",
+    "neg": 33,
+    "pct": 6.7,
+    "all": 40,
+    "avg": 1.62
+   },
+   {
+    "theme": "App bugs / forced rating",
+    "group": "other",
+    "neg": 25,
+    "pct": 5.1,
+    "all": 30,
+    "avg": 1.63
+   },
+   {
+    "theme": "First-order experience",
+    "group": "other",
+    "neg": 16,
+    "pct": 3.2,
+    "all": 22,
+    "avg": 2.05
+   },
+   {
+    "theme": "Offer / promo mismatch",
+    "group": "other",
+    "neg": 15,
+    "pct": 3.0,
+    "all": 18,
+    "avg": 1.56
+   },
+   {
+    "theme": "Restaurant selection",
+    "group": "other",
+    "neg": 10,
+    "pct": 2.0,
+    "all": 15,
+    "avg": 2.4
+   },
+   {
+    "theme": "Packaging / spillage",
+    "group": "other",
+    "neg": 8,
+    "pct": 1.6,
+    "all": 8,
+    "avg": 1.0
+   }
+  ],
+  "stages": [
+   {
+    "stage": "Discover & offer",
+    "pct": 3.0,
+    "avg": 1.56,
+    "afterPayment": false
+   },
+   {
+    "stage": "Order & pay",
+    "pct": 11.2,
+    "avg": 1.66,
+    "afterPayment": false
+   },
+   {
+    "stage": "Restaurant accepts",
+    "pct": 12.4,
+    "avg": 1.0,
+    "afterPayment": true
+   },
+   {
+    "stage": "Last-mile delivery",
+    "pct": 46.7,
+    "avg": 1.56,
+    "afterPayment": true
+   },
+   {
+    "stage": "Order receipt",
+    "pct": 16.2,
+    "avg": 1.91,
+    "afterPayment": true
+   },
+   {
+    "stage": "Refund & support",
+    "pct": 57.6,
+    "avg": 1.14,
+    "afterPayment": true
+   }
+  ],
+  "recovery": [
+   {
+    "failure": "Order cancelled",
+    "withSupport": 1.0,
+    "withSupportN": 44,
+    "without": 1.0,
+    "withoutN": 17
+   },
+   {
+    "failure": "Not delivered",
+    "withSupport": 1.08,
+    "withSupportN": 85,
+    "without": 1.05,
+    "withoutN": 22
+   },
+   {
+    "failure": "Delivery delay",
+    "withSupport": 1.05,
+    "withSupportN": 73,
+    "without": 2.55,
+    "withoutN": 60
+   },
+   {
+    "failure": "Food quality",
+    "withSupport": 1.0,
+    "withSupportN": 19,
+    "without": 3.02,
+    "withoutN": 43
+   }
+  ]
+ },
+ "captain": {
+  "n": 376,
+  "from": "2026-03-05",
+  "to": "2026-10-04",
+  "avg": 2.63,
+  "neg": 223,
+  "ratings": {
+   "1": 211,
+   "2": 12,
+   "3": 3,
+   "4": 6,
+   "5": 144
+  },
+  "themes": [
+   {
+    "theme": "Onboarding / Verification Delay",
+    "neg": 131,
+    "pct": 58.7,
+    "avg": 1.34,
+    "thumbs": 342
+   },
+   {
+    "theme": "Brand Trust / 'Don't Download'",
+    "neg": 67,
+    "pct": 30.0,
+    "avg": 1.06,
+    "thumbs": 119
+   },
+   {
+    "theme": "Support Unresponsive",
+    "neg": 43,
+    "pct": 19.3,
+    "avg": 1.59,
+    "thumbs": 180
+   },
+   {
+    "theme": "App Stability / Login Bugs",
+    "neg": 34,
+    "pct": 15.2,
+    "avg": 1.71,
+    "thumbs": 95
+   },
+   {
+    "theme": "Incentive & Payout Trust",
+    "neg": 21,
+    "pct": 9.4,
+    "avg": 2.7,
+    "thumbs": 44
+   },
+   {
+    "theme": "Order Flow / Dispatch",
+    "neg": 13,
+    "pct": 5.8,
+    "avg": 1.88,
+    "thumbs": 23
+   },
+   {
+    "theme": "City Not Live",
+    "neg": 5,
+    "pct": 2.2,
+    "avg": 2.9,
+    "thumbs": 7
+   }
+  ],
+  "thumbsTotal": 524,
+  "wait": {
+   "n": 93,
+   "median": 30.0,
+   "max": 180.0,
+   "over30Pct": 29,
+   "buckets": [
+    {
+     "bucket": "0–3",
+     "n": 9
+    },
+    {
+     "bucket": "4–7",
+     "n": 13
+    },
+    {
+     "bucket": "8–14",
+     "n": 11
+    },
+    {
+     "bucket": "15–30",
+     "n": 33
+    },
+    {
+     "bucket": "31–60",
+     "n": 17
+    },
+    {
+     "bucket": "61+",
+     "n": 10
+    }
+   ]
+  },
+  "stage": {
+   "Applicant (not yet active)": 150,
+   "Unclear – positive": 116,
+   "Unclear – negative": 60,
+   "Active captain": 50
+  },
+  "burst5": 59,
+  "all5": 144,
+  "organicAvg": 2.19,
+  "replyRatePct": 0.0
+ },
+ "restaurant": {
+  "n": 105,
+  "from": "2025-11-14",
+  "to": "2026-10-04",
+  "avg": 4.09,
+  "organicAvg": 3.59,
+  "organicN": 68,
+  "issues": 33,
+  "ratings": {
+   "1": 18,
+   "2": 4,
+   "3": 4,
+   "4": 4,
+   "5": 75
+  },
+  "burstDays": [
+   {
+    "date": "2026-06-02",
+    "n": 19
+   },
+   {
+    "date": "2026-06-19",
+    "n": 18
+   }
+  ],
+  "themes": [
+   {
+    "theme": "Onboarding & Activation",
+    "n": 8
+   },
+   {
+    "theme": "Support Responsiveness",
+    "n": 4
+   },
+   {
+    "theme": "Order Alerts & Cancellations",
+    "n": 4
+   },
+   {
+    "theme": "Store Visibility & Availability",
+    "n": 4
+   },
+   {
+    "theme": "Menu & Catalogue Control",
+    "n": 3
+   },
+   {
+    "theme": "Rider & Dispatch",
+    "n": 2
+   },
+   {
+    "theme": "Low Order Demand",
+    "n": 2
+   },
+   {
+    "theme": "Payouts & Reporting",
+    "n": 2
+   },
+   {
+    "theme": "Out-of-Scope Enquiry",
+    "n": 2
+   },
+   {
+    "theme": "App Stability",
+    "n": 1
+   },
+   {
+    "theme": "Unspecified Negative",
+    "n": 1
+   }
+  ],
+  "replyRatePct": 0.0
+ },
+ "bursts": [
+  {
+   "date": "2026-05-01",
+   "captain": 0,
+   "restaurant": 0
+  },
+  {
+   "date": "2026-05-02",
+   "captain": 1,
+   "restaurant": 1
+  },
+  {
+   "date": "2026-05-03",
+   "captain": 2,
+   "restaurant": 0
+  },
+  {
+   "date": "2026-05-04",
+   "captain": 0,
+   "restaurant": 1
+  },
+  {
+   "date": "2026-05-05",
+   "captain": 0,
+   "restaurant": 1
+  },
+  {
+   "date": "2026-05-06",
+   "captain": 1,
+   "restaurant": 1
+  },
+  {
+   "date": "2026-05-07",
+   "captain": 0,
+   "restaurant": 0
+  },
+  {
+   "date": "2026-05-08",
+   "captain": 1,
+   "restaurant": 0
+  },
+  {
+   "date": "2026-05-09",
+   "captain": 1,
+   "restaurant": 0
+  },
+  {
+   "date": "2026-05-10",
+   "captain": 1,
+   "restaurant": 0
+  },
+  {
+   "date": "2026-05-11",
+   "captain": 1,
+   "restaurant": 0
+  },
+  {
+   "date": "2026-05-12",
+   "captain": 3,
+   "restaurant": 0
+  },
+  {
+   "date": "2026-05-13",
+   "captain": 0,
+   "restaurant": 0
+  },
+  {
+   "date": "2026-05-14",
+   "captain": 13,
+   "restaurant": 0
+  },
+  {
+   "date": "2026-05-15",
+   "captain": 0,
+   "restaurant": 0
+  },
+  {
+   "date": "2026-05-16",
+   "captain": 2,
+   "restaurant": 1
+  },
+  {
+   "date": "2026-05-17",
+   "captain": 0,
+   "restaurant": 0
+  },
+  {
+   "date": "2026-05-18",
+   "captain": 0,
+   "restaurant": 0
+  },
+  {
+   "date": "2026-05-19",
+   "captain": 0,
+   "restaurant": 0
+  },
+  {
+   "date": "2026-05-20",
+   "captain": 0,
+   "restaurant": 0
+  },
+  {
+   "date": "2026-05-21",
+   "captain": 1,
+   "restaurant": 0
+  },
+  {
+   "date": "2026-05-22",
+   "captain": 1,
+   "restaurant": 0
+  },
+  {
+   "date": "2026-05-23",
+   "captain": 0,
+   "restaurant": 0
+  },
+  {
+   "date": "2026-05-24",
+   "captain": 1,
+   "restaurant": 0
+  },
+  {
+   "date": "2026-05-25",
+   "captain": 1,
+   "restaurant": 0
+  },
+  {
+   "date": "2026-05-26",
+   "captain": 2,
+   "restaurant": 0
+  },
+  {
+   "date": "2026-05-27",
+   "captain": 3,
+   "restaurant": 0
+  },
+  {
+   "date": "2026-05-28",
+   "captain": 6,
+   "restaurant": 1
+  },
+  {
+   "date": "2026-05-29",
+   "captain": 1,
+   "restaurant": 0
+  },
+  {
+   "date": "2026-05-30",
+   "captain": 3,
+   "restaurant": 0
+  },
+  {
+   "date": "2026-05-31",
+   "captain": 1,
+   "restaurant": 0
+  },
+  {
+   "date": "2026-06-01",
+   "captain": 0,
+   "restaurant": 0
+  },
+  {
+   "date": "2026-06-02",
+   "captain": 14,
+   "restaurant": 19
+  },
+  {
+   "date": "2026-06-03",
+   "captain": 2,
+   "restaurant": 0
+  },
+  {
+   "date": "2026-06-04",
+   "captain": 1,
+   "restaurant": 0
+  },
+  {
+   "date": "2026-06-05",
+   "captain": 0,
+   "restaurant": 1
+  },
+  {
+   "date": "2026-06-06",
+   "captain": 0,
+   "restaurant": 0
+  },
+  {
+   "date": "2026-06-07",
+   "captain": 0,
+   "restaurant": 0
+  },
+  {
+   "date": "2026-06-08",
+   "captain": 0,
+   "restaurant": 0
+  },
+  {
+   "date": "2026-06-09",
+   "captain": 2,
+   "restaurant": 1
+  },
+  {
+   "date": "2026-06-10",
+   "captain": 0,
+   "restaurant": 0
+  },
+  {
+   "date": "2026-06-11",
+   "captain": 0,
+   "restaurant": 0
+  },
+  {
+   "date": "2026-06-12",
+   "captain": 0,
+   "restaurant": 0
+  },
+  {
+   "date": "2026-06-13",
+   "captain": 1,
+   "restaurant": 0
+  },
+  {
+   "date": "2026-06-14",
+   "captain": 0,
+   "restaurant": 0
+  },
+  {
+   "date": "2026-06-15",
+   "captain": 3,
+   "restaurant": 0
+  },
+  {
+   "date": "2026-06-16",
+   "captain": 4,
+   "restaurant": 0
+  },
+  {
+   "date": "2026-06-17",
+   "captain": 3,
+   "restaurant": 1
+  },
+  {
+   "date": "2026-06-18",
+   "captain": 2,
+   "restaurant": 0
+  },
+  {
+   "date": "2026-06-19",
+   "captain": 19,
+   "restaurant": 18
+  },
+  {
+   "date": "2026-06-20",
+   "captain": 4,
+   "restaurant": 0
+  },
+  {
+   "date": "2026-06-21",
+   "captain": 0,
+   "restaurant": 0
+  },
+  {
+   "date": "2026-06-22",
+   "captain": 1,
+   "restaurant": 0
+  },
+  {
+   "date": "2026-06-23",
+   "captain": 1,
+   "restaurant": 0
+  },
+  {
+   "date": "2026-06-24",
+   "captain": 1,
+   "restaurant": 0
+  },
+  {
+   "date": "2026-06-25",
+   "captain": 2,
+   "restaurant": 0
+  },
+  {
+   "date": "2026-06-26",
+   "captain": 2,
+   "restaurant": 0
+  },
+  {
+   "date": "2026-06-27",
+   "captain": 1,
+   "restaurant": 0
+  },
+  {
+   "date": "2026-06-28",
+   "captain": 2,
+   "restaurant": 1
+  },
+  {
+   "date": "2026-06-29",
+   "captain": 1,
+   "restaurant": 1
+  },
+  {
+   "date": "2026-06-30",
+   "captain": 19,
+   "restaurant": 1
+  },
+  {
+   "date": "2026-07-01",
+   "captain": 3,
+   "restaurant": 0
+  },
+  {
+   "date": "2026-07-02",
+   "captain": 1,
+   "restaurant": 0
+  },
+  {
+   "date": "2026-07-03",
+   "captain": 3,
+   "restaurant": 0
+  },
+  {
+   "date": "2026-07-04",
+   "captain": 0,
+   "restaurant": 1
+  },
+  {
+   "date": "2026-07-05",
+   "captain": 4,
+   "restaurant": 1
+  },
+  {
+   "date": "2026-07-06",
+   "captain": 1,
+   "restaurant": 0
+  },
+  {
+   "date": "2026-07-07",
+   "captain": 0,
+   "restaurant": 0
+  },
+  {
+   "date": "2026-07-08",
+   "captain": 1,
+   "restaurant": 0
+  },
+  {
+   "date": "2026-07-09",
+   "captain": 0,
+   "restaurant": 0
+  },
+  {
+   "date": "2026-07-10",
+   "captain": 2,
+   "restaurant": 0
+  },
+  {
+   "date": "2026-07-11",
+   "captain": 2,
+   "restaurant": 0
+  },
+  {
+   "date": "2026-07-12",
+   "captain": 1,
+   "restaurant": 0
+  },
+  {
+   "date": "2026-07-13",
+   "captain": 5,
+   "restaurant": 0
+  },
+  {
+   "date": "2026-07-14",
+   "captain": 2,
+   "restaurant": 1
+  },
+  {
+   "date": "2026-07-15",
+   "captain": 1,
+   "restaurant": 0
+  }
+ ],
+ "total": 1481,
+ "seo": {
+  "visits": "1.1K",
+  "keywords": 163,
+  "brandedTraffic": 155,
+  "nonBranded": 931,
+  "topPagePct": 63.5,
+  "zomato": "67.9M",
+  "swiggy": "15.3M",
+  "date": "2026-10-05"
+ }
+}
