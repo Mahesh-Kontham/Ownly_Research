@@ -1,7 +1,8 @@
 import type { ReactNode } from "react";
 import { Bar, BarChart, CartesianGrid, Cell, LabelList, Legend, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 import stats from "../data/stats.json";
-import { Eyebrow, SourcesPanel, TalkButton } from "../components/ui";
+import { Link } from "react-router-dom";
+import { Eyebrow, SourcesPanel } from "../components/ui";
 import { NextBar } from "../components/Layout";
 import { DOWNLOADS } from "../site";
 
@@ -252,7 +253,11 @@ export default function Evidence() {
           <p className="text-xs font-semibold uppercase tracking-[0.14em] text-brand">Thanks for reading this far</p>
           <p className="mt-3 max-w-3xl font-display text-3xl font-extrabold leading-tight sm:text-4xl">I'd like to work on problems like this as an Associate Product Manager at Ownly.</p>
           <p className="mt-3 max-w-2xl text-white/75">The first thing I'd do is measure what I couldn't see from outside. Can we talk for 15 minutes?</p>
-          <div className="mt-6"><TalkButton /></div>
+          <div className="mt-6">
+            <Link to="/about-me" className="inline-flex items-center justify-center gap-2 rounded-full bg-brand-strong px-6 py-3.5 text-[15px] font-semibold text-white transition hover:bg-brand-ink">
+              Want to know more about me? <span aria-hidden>→</span>
+            </Link>
+          </div>
         </div>
       </div>
       <NextBar back="/case-study" />

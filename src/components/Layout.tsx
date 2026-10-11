@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 import { Link, NavLink, Outlet, useLocation } from "react-router-dom";
 import { AUTHOR, EMAIL, STEPS } from "../site";
-import { TalkButton } from "./ui";
 
 function stepIndex(path: string) {
   if (path.startsWith("/case-study")) return 3;
@@ -24,7 +23,7 @@ export function Layout() {
           </Link>
           <div className="flex items-center gap-2">
             <span className="hidden rounded-full bg-brand-soft px-3 py-1 text-xs font-semibold text-brand-ink md:inline">Open to APM roles at Ownly</span>
-            <TalkButton compact />
+            <span className="truncate text-sm font-semibold text-ink">{EMAIL}</span>
           </div>
         </div>
         <nav aria-label="Progress" className="mx-auto max-w-6xl px-4 pb-3 sm:px-6">
