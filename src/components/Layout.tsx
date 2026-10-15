@@ -22,7 +22,7 @@ export function Layout() {
             <p className="truncate text-xs text-muted">APM candidate · independent Ownly case study</p>
           </Link>
           <div className="flex items-center gap-2">
-            <span className="hidden rounded-full bg-brand-soft px-3 py-1 text-xs font-semibold text-brand-ink md:inline">Open to APM roles at Ownly</span>
+            <span className="hidden rounded-full bg-brand-soft px-3 py-1 text-xs font-semibold text-brand-ink md:inline">Open to APM roles</span>
             <span className="truncate text-sm font-semibold text-ink">{EMAIL}</span>
           </div>
         </div>
