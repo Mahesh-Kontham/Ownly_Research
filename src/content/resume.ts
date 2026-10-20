@@ -1,4 +1,4 @@
-// Content taken from Mahesh_Kontham_Resume_PM.pdf. Edit here; the About page renders from this.
+// Content taken from Mahesh Kontham's resume. Edit here; the About page renders from this.
 export const PROFILE = {
   name: "Mahesh Kontham",
   headline: "Product-minded builder · Growth Associate Intern at NxtWave",

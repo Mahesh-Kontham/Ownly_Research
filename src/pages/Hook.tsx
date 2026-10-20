@@ -19,8 +19,7 @@ export default function Hook() {
 
       <p className="mt-8 max-w-2xl text-lg leading-relaxed text-ink-2">
         I'm {AUTHOR}. I read <strong className="text-ink">{stats.total.toLocaleString("en-IN")} public reviews</strong> across Ownly's
-        customer, captain and restaurant apps to understand why moments like this happen, and what I would do about it as an
-        Associate Product Manager at Ownly.
+        customer, captain and restaurant apps to understand why moments like this happen and what the evidence suggests doing next.
       </p>
 
       <div className="mt-10 grid gap-3 sm:grid-cols-3">

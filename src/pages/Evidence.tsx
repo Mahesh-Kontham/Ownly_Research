@@ -251,8 +251,8 @@ export default function Evidence() {
 
         <div className="mt-14 rounded-3xl bg-ink p-8 text-white sm:p-10">
           <p className="text-xs font-semibold uppercase tracking-[0.14em] text-brand">Thanks for reading this far</p>
-          <p className="mt-3 max-w-3xl font-display text-3xl font-extrabold leading-tight sm:text-4xl">I'd like to work on problems like this as an Associate Product Manager.</p>
-          <p className="mt-3 max-w-2xl text-white/75">The first thing I'd do is measure what I couldn't see from outside. Can we talk for 15 minutes?</p>
+          <p className="mt-3 max-w-3xl font-display text-3xl font-extrabold leading-tight sm:text-4xl">This teardown points to an opportunity: measure what isn't visible from the outside, then test the highest-impact fix.</p>
+          <p className="mt-3 max-w-2xl text-white/75">What would you investigate first?</p>
           <div className="mt-6">
             <Link to="/about-me" className="inline-flex items-center justify-center gap-2 rounded-full bg-brand-strong px-6 py-3.5 text-[15px] font-semibold text-white transition hover:bg-brand-ink">
               Want to know more about me? <span aria-hidden>→</span>

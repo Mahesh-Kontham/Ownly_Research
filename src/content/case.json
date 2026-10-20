@@ -959,7 +959,7 @@
    },
    {
     "t": "callout",
-    "kind": "PM DECISION",
+    "kind": "DECISION",
     "title": "Lead with H1, design to be proven wrong by H9",
     "lines": [
      "H1 has the strongest triangulated evidence and the clearest mechanism. But a strong signal in reviews is not proof of business impact. The plan therefore starts with a sizing gate that tests H1 against H9 using two queries. If severe failures are rare **and** clean-order customers also fail to return, the reliability plan stops and the team pivots to the retention/selection question."
@@ -1469,7 +1469,7 @@
    },
    {
     "t": "callout",
-    "kind": "PM DECISION",
+    "kind": "DECISION",
     "title": "Size before you build",
     "lines": [
      "The opportunity cannot be reliably quantified from public data. The first deliverable is therefore two queries on existing order logs (failure rate and repeat gap), not a feature. That costs about two analyst-weeks and decides whether the rest of this plan proceeds."
@@ -1987,7 +1987,7 @@
    },
    {
     "t": "callout",
-    "kind": "PM DECISION",
+    "kind": "DECISION",
     "title": "Selected: S1 + S2 (incl. S4's timeout as rule R2) as the MVP",
     "lines": [
      "It is the smallest intervention that tests the core hypothesis: verifying the handoff and resolving failures automatically reduces paid-no-food losses and protects repeat ordering. It uses a habit Rapido's network may already have. **Deferred:** S5 (until residual ticket volume is known), S6 (needs prep data), S7 (separate supply track). **Rejected:** S9 COD (worsens the core failure), S10 SEO/discounts (pours users into a leak)."
@@ -2390,7 +2390,7 @@
   "blocks": [
    {
     "t": "callout",
-    "kind": "PM DECISION",
+    "kind": "DECISION",
     "title": "Gate A comes first: E0 sizing (weeks 1–2, not an A/B test)",
     "lines": [
      "Pull (1) the severe-failure rate per 1,000 orders by type and (2) the 30-day repeat rate of customers whose first order failed vs those whose first order was clean.",
@@ -2960,7 +2960,7 @@
       "Failure rate per order; repeat gap; causes of cancellations; who controls the captain app; competitor recovery flows; iOS and non-reviewer sentiment."
      ],
      [
-      "Next PM decision",
+      "Next decision",
       "Request two queries (severe-failure rate and repeat gap) and decide at Gate A on day 14. Build nothing irreversible before then."
      ]
     ]

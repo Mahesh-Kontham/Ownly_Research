@@ -21,7 +21,7 @@ export function TalkButton({ compact = false, label }: { compact?: boolean; labe
       href={MAILTO}
       className={`inline-flex items-center justify-center gap-2 rounded-full bg-brand-strong font-semibold text-white transition hover:bg-brand-ink ${compact ? "px-4 py-2 text-sm" : "px-6 py-3.5 text-[15px]"}`}
     >
-      {label ?? (compact ? "Talk about an APM role" : "Let's talk about an APM role at Ownly")}
+      {label ?? (compact ? "Discuss the teardown" : "Let's talk about the Ownly teardown")}
     </a>
   );
 }

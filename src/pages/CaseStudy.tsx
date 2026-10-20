@@ -28,7 +28,7 @@ export const CHAPTERS = [
 
 const CALLOUT: Record<string, string> = {
   "KEY INSIGHT": "border-blue-600 bg-blue-50", EVIDENCE: "border-good bg-good-soft", "IMPORTANT ASSUMPTION": "border-warn bg-warn-soft",
-  RISK: "border-bad bg-bad-soft", "PM DECISION": "border-ink bg-panel", UNKNOWN: "border-recovery bg-recovery-soft", CORRECTION: "border-brand bg-brand-soft",
+  RISK: "border-bad bg-bad-soft", DECISION: "border-ink bg-panel", UNKNOWN: "border-recovery bg-recovery-soft", CORRECTION: "border-brand bg-brand-soft",
 };
 
 function BlockView({ b }: { b: Block }) {

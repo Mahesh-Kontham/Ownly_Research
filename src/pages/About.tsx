@@ -93,7 +93,7 @@ function Hero() {
         <Reveal>
           <span className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-3 py-1 text-xs font-semibold text-white/80">
             <span className="relative flex h-2 w-2"><span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-good opacity-75" /><span className="relative inline-flex h-2 w-2 rounded-full bg-[#22c55e]" /></span>
-            Open to Associate Product Manager roles
+            Research · product · engineering
           </span>
         </Reveal>
         <Reveal delay={100}>
@@ -454,7 +454,7 @@ export default function About() {
             <div aria-hidden className="animate-blob pointer-events-none absolute -bottom-24 -right-16 h-72 w-72 rounded-full bg-brand/40 blur-3xl" />
             <div className="relative">
               <p className="text-xs font-semibold uppercase tracking-[0.18em] text-brand">Let's talk</p>
-              <p className="mt-3 max-w-3xl font-display text-3xl font-extrabold leading-tight sm:text-4xl">If you're hiring an APM who can research, decide and ship, I'd love to hear from you.</p>
+              <p className="mt-3 max-w-3xl font-display text-3xl font-extrabold leading-tight sm:text-4xl">If you're working on problems that need research, clear decisions and thoughtful execution, I'd love to connect.</p>
               <div className="mt-7 flex flex-wrap gap-3">
                 <a href={`mailto:${PROFILE.email}`} className="inline-flex items-center gap-2 rounded-full bg-brand-strong px-6 py-3.5 text-[15px] font-semibold transition hover:-translate-y-0.5 hover:bg-brand-ink"><MailIcon /> Email me</a>
                 <a href={PROFILE.linkedin} target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-full border border-white/20 px-6 py-3.5 text-[15px] font-semibold transition hover:-translate-y-0.5 hover:bg-white/10"><LinkedInIcon /> {PROFILE.linkedinLabel}</a>

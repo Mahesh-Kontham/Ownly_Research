@@ -19,10 +19,10 @@ export function Layout() {
         <div className="mx-auto flex max-w-6xl items-center justify-between gap-3 px-4 py-3 sm:px-6">
           <Link to="/" className="min-w-0">
             <p className="truncate font-display text-[15px] font-bold leading-tight">{AUTHOR}</p>
-            <p className="truncate text-xs text-muted">APM candidate · independent Ownly case study</p>
+            <p className="truncate text-xs text-muted">Independent Ownly teardown</p>
           </Link>
           <div className="flex items-center gap-2">
-            <span className="hidden rounded-full bg-brand-soft px-3 py-1 text-xs font-semibold text-brand-ink md:inline">Open to APM roles</span>
+            <span className="hidden rounded-full bg-brand-soft px-3 py-1 text-xs font-semibold text-brand-ink md:inline">Research · product · engineering</span>
             <span className="truncate text-sm font-semibold text-ink">{EMAIL}</span>
           </div>
         </div>
